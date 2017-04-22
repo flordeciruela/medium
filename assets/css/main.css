@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 div {
   display: inline-block;
 }
@@ -8,3 +13,16 @@ a {
  header img {
    height: 40px;
  }
+
+ nav  {
+	 height: 65px;
+	 font-size: 14px;
+ }
+
+ .nav a, div {
+	 padding: 0 10px;
+ }
+
+.nav-right {
+	float: right;
+}
