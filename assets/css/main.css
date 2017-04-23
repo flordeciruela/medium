@@ -1,15 +1,39 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-size: 20px;
 }
 
-div {
-  display: inline-block;
+.green {
+	color: #00ab6b;
+}
+
+.elipse {
+	border-radius: 100%;
+	background-color: #00ab6b;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+}
+
+.elipse span {
+	position: absolute;
+	top: 25%;
+	left: 35%;
 }
 
 a {
   text-decoration: none;
+	color: rgba(0,0,0,.44);
+	font-size: 16px;
 }
+/*Header*/
+div {
+  display: inline-block;
+}
+
  header img {
    height: 40px;
  }
@@ -19,10 +43,71 @@ a {
 	 font-size: 14px;
  }
 
- .nav a, div {
-	 padding: 0 10px;
- }
+.nav {
+	margin: 15px 10px;
+}
+
+.nav a,
+.nav div {
+	margin: 0 10px;
+}
 
 .nav-right {
 	float: right;
+}
+
+/*contenido*/
+.blog {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 15px;
+	color: rgba(0,0,0,.8);
+}
+
+.perfil {
+	position: relative;
+	margin: 20px 0;
+}
+
+.perfil img {
+	width: 60px;
+	height: 60px;
+}
+
+.photo-perfil {
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.tex-perfi {
+	position: absolute;
+	top: 0;
+	margin-left: 20px;
+}
+
+.perfil p {
+	color: rgba(0,0,0,.44);
+	font-size: 16px;
+}
+
+/*Footer*/
+footer {
+	padding: 5px 5px 0 15%;
+	border-top: 1px solid rgba(0,0,0,.2);
+	color: rgba(0,0,0,.8);
+}
+
+footer a {
+	padding-right: 15px;
+}
+
+.footer-right {
+	float: right;
+}
+
+.next p {
+	font-weight: bold;
+	font-size: 16px;
 }
