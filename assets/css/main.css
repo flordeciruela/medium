@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
 }
 
 .green {
@@ -18,17 +19,12 @@
 	position: relative;
 }
 
-.elipse span {
-	position: absolute;
-	top: 25%;
-	left: 35%;
-}
-
 a {
   text-decoration: none;
 	color: rgba(0,0,0,.44);
 	font-size: 16px;
 }
+
 /*Header*/
 div {
   display: inline-block;
@@ -45,15 +41,74 @@ div {
 
 .nav {
 	margin: 15px 10px;
+	position: relative;
+}
+
+.elipse span {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+
+.nav .icon,
+.nav .line-separador {
+	bottom: 10px;
+}
+
+.line-separador {
+	width: 1px;
+	height: 20px;
+	background-color: rgba(0,0,0,.2);
+}
+
+.nav-left a {
+	font-size: 25px;
+}
+
+.nav-left a:hover {
+	font-size: 26px;
+}
+
+.icon-twitter-with-circle {
+	color: #20B8FF;
+}
+
+.icon-twitter-with-circle:hover {
+	color: #4dc1f7;
+}
+
+.icon-facebook-with-circle {
+	color: #3F5A9E;
+}
+
+.icon-facebook-with-circle:hover {
+	color: #4a6abb;
+}
+
+.nav-right span,
+.edit {
+	font-size: 14px;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.edit:hover {
+	color: rgba(0,0,0,.8);
+	text-decoration: underline;
 }
 
 .nav a,
 .nav div {
 	margin: 0 10px;
+	position: relative;
 }
 
 .nav-right {
 	float: right;
+}
+
+.icon-search:hover {
+	font-size: 18px;
+	color: #00ab6b;
 }
 
 /*contenido*/
@@ -66,7 +121,7 @@ div {
 
 .perfil {
 	position: relative;
-	margin: 20px 0;
+	margin: 25px 0 40px 0;
 }
 
 .perfil img {
@@ -79,22 +134,42 @@ div {
 	width: 60px;
 	height: 60px;
 	overflow: hidden;
+	position: relative;
+	top: 1px;
+
 }
 
 .tex-perfi {
 	position: absolute;
 	top: 0;
 	margin-left: 20px;
+	line-height: 22px;
 }
 
 .perfil p {
 	color: rgba(0,0,0,.44);
-	font-size: 16px;
+	font-size: 15px;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+article h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 55px;
+	line-height: 60px;
+}
+
+article p {
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.italic {
+	font-style: italic;
 }
 
 /*Footer*/
 footer {
-	padding: 5px 5px 0 15%;
+	padding: 5px 5px 9px 15%;
 	border-top: 1px solid rgba(0,0,0,.2);
 	color: rgba(0,0,0,.8);
 }
@@ -103,11 +178,51 @@ footer a {
 	padding-right: 15px;
 }
 
+.footer-left {
+	margin-top: 5px;
+}
+
+.icon-heart2 {
+	color: #00ab6b;
+}
+
+.icon-heart2:hover {
+	color: #f93a34;
+}
+
+.icon-comment:hover {
+	color: #00ab6b;
+}
+
 .footer-right {
 	float: right;
 }
 
+.footer-right a {
+	position: relative;
+	top: -4px;
+}
+
+.icon-twitter:hover {
+	color: #20B8FF;
+}
+
+.icon-facebook:hover {
+	color: #3F5A9E;
+}
+
+.icon-bookmark:hover {
+	color: #FAC60E;
+}
+
+.footer-right .line-separador {
+	margin-right: 15px;
+	position: relative;
+	top: -2px;
+}
+
 .next p {
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 12px;
+	font-family: 'Pontano Sans', sans-serif;
 }
